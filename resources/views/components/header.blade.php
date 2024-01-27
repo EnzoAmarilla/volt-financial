@@ -1,5 +1,5 @@
-<div class="header absolute-light sticky">
-    <div class="container">
+<div class="header sticky">
+    <div class="container-fluid header-padding">
         <!-- Logo -->
         <div class="header-logo">
             <a href="/">
@@ -29,7 +29,12 @@
         <!-- Menu Extra -->
         <div class="header-menu-extra">
             <ul class="list-inline d-flex justify-content-center align-items-center">
-                <li class="desktop-buy-now-my-voit"><a target="_blank" href="https://my.voltsolarenergy.com"><img data-src="{{ asset('/images/Logos/myvolt.png') }}" alt="" class="lazyload"></a></li>
+                <li class="desktop-buy-now-my-voit mr-20">
+                    <a target="_blank" href="https://my.voltsolarenergy.com">
+                        <img data-src="{{ asset('/images/Icons/icon.svg') }}" alt="" class="mr-6 lazyload">
+                    Login
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link button-circle button-circle-white-3" href="/locale/{{ App::currentLocale() == 'en' ? 'es' : 'en' }}">
                         <form action="/locale/{{ App::currentLocale() == 'en' ? 'es' : 'en' }}" method="GET">

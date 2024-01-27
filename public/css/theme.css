@@ -3516,13 +3516,13 @@ div[class^='bg-dark'] .button-text-3:hover:before, div[class*=' bg-dark'] .butto
 }
 
 .button-circle-white-3, a.button-circle-white-3 {
-  background: rgba(255, 255, 255, 0.15);
+  background: #708AC3;
   border: 0;
   color: #fff;
 }
 
 .button-circle-white-3:hover, .button-circle-white-3:focus, a.button-circle-white-3:hover, a.button-circle-white-3:focus {
-  background: rgba(255, 255, 255, 0.2);
+  background: #4670ca;
   color: #fff;
 }
 
@@ -7414,8 +7414,8 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
 }
 
 .header {
-  background: linear-gradient(180deg, rgba(35, 31, 32, 0.60) 57.29%, rgba(35, 31, 32, 0.00) 100%) !important;
-  backdrop-filter: blur(2px);
+  background: var(--White, #FFF);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
   top: 0;
   z-index: 993;
   overflow: visible;
@@ -7423,15 +7423,6 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
   height: 85px;
   -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
-}
-
-.header:hover {
-  background: rgba(35, 31, 32, 0.60)  !important;
-  backdrop-filter: blur(2px);
-}
-
-.header:hover {
-  transition: all 500ms ease-in-out;
 }
 
 .header.hide {
@@ -7566,12 +7557,13 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
 .header .header-menu .nav .nav-item .nav-link {
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   letter-spacing: -0.2px;
-  color: #D3D2D2;
+  color: #7B7979;
 }
 
 .header .header-menu .nav .nav-item .nav-link:hover, .header .header-menu .nav .nav-item .nav-link.active {
-  color: #fff;
+  color: #231F20;
 }
 
 .header .header-menu .nav .nav-item .nav-dropdown-toggle {
@@ -7806,7 +7798,7 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
     position: relative;
     display: inline-block;
     height: 100%;
-    margin: 0 0 0 20px;
+    margin: 0 32px 0 32px;
   }
   .header .header-menu .nav .nav-item:first-child {
     margin-left: 0;

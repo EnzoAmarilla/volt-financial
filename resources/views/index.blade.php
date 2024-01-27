@@ -9,15 +9,13 @@
 
 @section('content')
 
-    <!-- Landing Hero section -->
-    <div class="section-fullscreen bg-image bg-p-bottom parallax bg-mobile-landing lazyload" data-bg-src="{{ asset('images/Main/1-landing.avif') }}">
-        <div class="bg-effect-black banner-text-flex padding-y-50">
-            <h1 class="text-title-tv text-center-md text-center-sm">{{ __("translations.Your path to energy independence") }}<span class="yellow-text">.</span></h1>
-            <p class="text-subtitle-tv padding-y-10">{{ __("translations.Solar and energy efficiency for your home") }}</p>
-            <button class="button button-md button-outline-grey-2 border-radius-2px margin-top-20 text-inherit" data-toggle="modal" data-target="#modal-form-contact">{{ __("translations.I want to know more") }}</button>
-        </div>
-    </div>
-    <!-- end Landing Hero section -->
+    @include('components.sections.banner',
+    [
+        'imagen' => 'images/Main/main-home.png', 
+		// 'class_image_mobile' => 'bg-mobile-solar-energy',
+		'titulo' => __("translations.Banner Title"), 
+		'subtitulo' => __("translations.Banner Subtitle"),
+    ])
 
     @include('components.sections.hero-text-2', 
     [
@@ -160,23 +158,13 @@
         </div>
     </section><!-- end container -->
 
-    @include('components.sections.banner-footer-1', 
+    {{-- @include('components.sections.banner-footer-1', 
     [
         'imagen' => 'images/Footer/banner-2/1-solar.avif', 
         'titulo' => __("translations.banner-footer-title-solar"), 
         'subtitulo' => __("translations.banner-footer-text-solar"), 
         'btn_texto' => __("translations.banner-footer-button-solar"),
         'form' => true,
-    ])
-
-    {{-- @include('components.sections.swiper', [
-        'title_landing2' => __("translations.title-landing-2"),
-        'images_sliders' => $images_sliders,
-    ])
-
-    @include('components.sections.swiper-mobile', [
-        'title_landing2' => __("translations.title-landing-2"),
-        'images_sliders_mobile' => $images_sliders_mobile,
     ]) --}}
 
 @endsection

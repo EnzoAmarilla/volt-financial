@@ -78,14 +78,44 @@ return [
     "New customers" => "New customers",
     "Customer Support" => "Customer Support",
     "Address" => "Address",
-    "All Rights reserved Volt © :year" => "All Rights reserved Volt © :year",
+    "All Rights reserved Volt © :year" => "All Rights reserved Volt Financial Services © :year",
 
 // ________ Index Landing ________
 
-    // Hero Text Landing 2
-    "title-landing" => "Together we can make a difference.",
-    "title-landing-2" => "What our customers say.",
-    "title-projects" => "Some of our latest projects.",
+    // Our Services Text
+    "Our Services" => "Our Services",
+    "Title1" => "Smart Financing",
+    "Subtitle1" => "Volt Financial Services stands apart in the realm of financing home improvements and energy solutions. Our core mission revolves around not just providing financial support, but also fostering a transformative experience for homeowners",
+    "Small Title" => "What set us apart:",
+    "Bold Text 1" => "Speed of Service: ",
+    "Text1" => "In a world where time is of the essence, we pride ourselves on our rapid response times and efficient processing. Unlike traditional financial institutions, where loan approvals can be a lengthy process, we've streamlined our operations to ensure that our clients receive swift, hassle-free financing solutions.",
+    "Bold Text 2" => "Innovation at the Forefront: ",
+    "Text2" => "Innovation is at the heart of Volt Financial Services. We constantly evolve our services and products to align with the latest in sustainable technology and financial trends.",
+    "Bold Text 3" => "Customer-Centric Approach: ",
+    "Text3" => "Our philosophy is deeply rooted in understanding and addressing the specific needs of each homeowner. We listen, we adapt, and we provide personalized solutions that align with the individual aspirations and financial situations of our clients.",
+    "Bold Text 4" => "Problem-Solving Orientation: ",
+    "Text4" => "We recognize that each homeowner has unique challenges and goals. Whether it's financing solar panels, energy-efficient appliances, or smart home upgrades, our team is skilled at identifying and solving these specific needs. We don't just finance; we offer solutions that directly contribute to improving our clients' quality of life and advancing their energy independence goals.",
+    "Bold Text 5" => "Benefit to Homeowners: ",
+    "Text5" => "The end goal of our services is twofold: to enhance the living experience of homeowners and to increase the value of their property. By investing in energy-efficient upgrades and sustainable technologies, homeowners not only enjoy a better quality of life but also see a significant increase in their home's equity value.",
+    
+    // Solar Financing
+    "Empowering Sustainability and Savings" => "Empowering Sustainability and Savings",
+    "Solar Financing" => "Solar Financing",
+    "text1_sf" => "Solar financing has become a crucial component in the adoption of renewable energy, and at Volt Financial Services, we offer comprehensive solutions like solar leases and solar loans to cater to the diverse needs of our customers.",
+    "text2_sf" => "Solar loans from Volt Financial Services allow homeowners to own their solar systems outright, benefiting from tax credits and increased home value, with the cost spread over time. Solar leases offer a low-commitment path to solar energy, with minimal upfront costs and fixed monthly payments, while we handle maintenance and system upgrades.",
+    
+    // Reducing Impact
+    "Energy Independence for a Better Future" => "Energy Independence for a Better Future",
+    "Reducing Impact" => "Reducing Impact",
+    "text1" => "Hundreds of solar and home improvements financed",
+    "text2" => "Thousands of metric tons of CO2 avoided",
+    "text3" => "Millions of kWh saved",
+
+    // Home Improvement
+    "Upgrading Your Home" => "Upgrading Your Home",
+    "Home Improvement" => "Home Improvement",
+    "text1_hi" => "Home improvement financing through Volt Financial Services provides homeowners with the opportunity to upgrade their homes with essential and modern enhancements such as new roofing, HVAC systems, energy storage batteries, and EV chargers.",
+    "text2_hi" => "By financing these improvements, homeowners can make significant upgrades without the burden of large upfront costs. This approach not only enhances their living experience but also contributes to long-term energy savings and an increase in their property's market value.",
 
     // Hero Text 3 Landing
     "Hero Text Description 3" => "Make your home smart, efficient and renewable.",

@@ -29,8 +29,8 @@
         <!-- Menu Extra -->
         <div class="header-menu-extra">
             <ul class="list-inline d-flex justify-content-center align-items-center">
-                <li class="desktop-buy-now-my-voit mr-20">
-                    <a target="_blank" href="https://my.voltsolarenergy.com">
+                <li class="nav-item desktop-buy-now-my-voit mr-20 mt-6">
+                    <a class="mt-6" target="_blank" href="https://my.voltsolarenergy.com">
                         <img data-src="{{ asset('/images/Icons/icon.svg') }}" alt="" class="mr-6 lazyload">
                     Login
                     </a>

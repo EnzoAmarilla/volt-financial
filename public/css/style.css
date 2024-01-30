@@ -10,6 +10,7 @@
     --Black-1: #231F20;
     --Black-2: #4F4C4D;
     --Black-3: #7B7979;
+    --Black-5: #D3D2D2;
     --Black-6: #EEE;
     --Blue-1: #4B6EB4;
     --Blue-2: #708AC3;
@@ -17,7 +18,11 @@
 
 ul, li, a {
     font-family: "Montserrat", sans-serif;
-} 
+}
+
+.vw-100 {
+    width: 100vw !important;
+}
 
 .banner-flex {
     display: flex;
@@ -32,7 +37,7 @@ ul, li, a {
     color: var(--Black-1);
     /* Titulo */
     font-family: 'Montserrat';
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 36px; /* 112.5% */
@@ -43,7 +48,7 @@ ul, li, a {
     color: var(--Black-3);
     /* Sub Sub Titulo */
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -73,11 +78,99 @@ ul, li, a {
     background: linear-gradient(270deg, rgba(75, 110, 180, 0.12) 0%, #4B6EB4 100%);
     width: 180px;
     height: 4px;
-    margin: 32px 0px 32px 0px;
+    margin: 26px 0px 26px 0px;
+}
+
+.horizontal-bar-2 {
+    background: linear-gradient(270deg, rgba(75, 110, 180, 0.12) 0%, #4B6EB4 100%);
+    width: 180px;
+    height: 4px;
+    margin: 5px 0px 26px 0px;
+}
+
+.horizontal-bar-3 {
+    background: linear-gradient(270deg, rgba(75, 110, 180, 0.12) 0%, #4B6EB4 100%);
+    width: 180px;
+    height: 4px;
+    margin: 15px 0px 26px 0px;
+}
+
+.horizontal-bar-4 {
+    background: linear-gradient(180deg, rgba(75, 110, 180, 0.12) 0%, #FFF 100%);
+    width: 4px;
+    height: 180px;
+    transform: rotate(90deg);
+    margin: -90px 10px -70px 88px;
+    }
+
+.mr-icon-1 {
+    margin-right: 10px !important;
+}
+
+.mr-icon-2 {
+    margin-right: 24px !important;
+}
+
+.mr-icon-3 {
+    margin-right: 28px !important;
 }
 
 .bg-light-footer {
     background: var(--Black-6);
+}
+
+.footer-padding {
+    padding: 0px 0px 0px 125px;
+}
+
+.bg-solar-financing {
+    background: url('../images/Main/main-home-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.solar-financing-container {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.solar-financing-child {
+    display: flex;
+    width: 41%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 150px;
+}
+
+.bg-home-improvement {
+    background: url('../images/Main/main-home-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-improvement-container {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.home-improvement-child {
+    display: flex;
+    width: 41%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 150px;
 }
 
 .footer-contact-info {
@@ -91,6 +184,15 @@ ul, li, a {
     letter-spacing: 0.7px;
 }
 
+.text-container-1 {
+    display: flex;
+    padding: 0px 129px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex: 1 0 0;
+}
+
 .text-blue-2 {
     color: #4B6EB4 !important;
 }
@@ -98,6 +200,14 @@ ul, li, a {
 .text-blue-2:hover {
     color: #708AC3 !important;
 }
+
+.text-black-5 {
+    color: var(--Black-5);
+}
+
+/* .bullet {
+
+} */
 
 .text-privacy {
     color: #FFF;
@@ -303,6 +413,10 @@ ul, li, a {
 
 .mr-50 {
     margin-right: 50px;
+}
+
+.mt-6 {
+    margin-top: 3px;
 }
 
 .p-0-img {

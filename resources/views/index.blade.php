@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title') Volt Financial | Volt Financial @endsection
+@section('title') Volt Financial Services @endsection
 
 {{-- @section('meta_description')
     <meta property="og:title" content="VOLT: Solar, Batteries & Home Improvement.">
@@ -17,155 +17,58 @@
 		'subtitulo' => __("translations.Banner Subtitle"),
     ])
 
-    @include('components.sections.hero-text-2', 
+    @include('components.sections.landing-1', 
     [
-        'hero_titulo' => __("translations.Energy 360"),
-        'hero_texto' => __("translations.Hero Text Description 3"),
+        'pretxt' => __("translations.Our Services"),
+        'title' => __("translations.Title1"), 
+        'subtitle' => __("translations.Subtitle1"), 
+        'title_sm' => __("translations.Small Title"), 
+        'bullet' => 'images/Icons/Bullet.svg',
+        'boldtxt1' => __("translations.Bold Text 1"),
+        'text1' => __("translations.Text1"),
+        'bullet' => 'images/Icons/Bullet.svg',
+        'boldtxt2' => __("translations.Bold Text 2"),
+        'text2' => __("translations.Text2"),
+        'bullet' => 'images/Icons/Bullet.svg',
+        'boldtxt3' => __("translations.Bold Text 3"),
+        'text3' => __("translations.Text3"),
+        'bullet' => 'images/Icons/Bullet.svg',
+        'boldtxt4' => __("translations.Bold Text 4"),
+        'text4' => __("translations.Text4"),
+        'bullet' => 'images/Icons/Bullet.svg',
+        'boldtxt5' => __("translations.Bold Text 5"),
+        'text5' => __("translations.Text5"),
+        'img' => 'images/Main/main-home-2.png',
     ])
 
-    {{-- Landing Cards --}}
-	<div class="">
-		<div class="container">
-			<div class="row col-spacing-60 pb-2rem text-center">
-				<!-- 1 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/solar-energy">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/Solar.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-2">
-                                        <img data-src="{{ asset('/images/Cards/Icons/Solar.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.Solar Energy")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-				<!-- 2 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/energy-storage">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/Batteries.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-2">
-                                        <img data-src="{{ asset('/images/Cards/Icons/Battery.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.Energy Storage")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-				<!-- 3 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/roofing">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/Roof.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-4">
-                                        <img data-src="{{ asset('/images/Cards/Icons/Roof.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.Roofing")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-			</div><!-- end row -->
-			<div class="row col-spacing-60 pb-2rem text-center">
-				<!-- 4 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/ev-chargers">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/EV.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-2">
-                                        <img data-src="{{ asset('/images/Cards/Icons/EV.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.EV Chargers 2")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-				<!-- 5 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/energy-efficiency">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/EF.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-2">
-                                        <img data-src="{{ asset('/images/Cards/Icons/EF.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.Energy Efficiency")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-				<!-- 6 -->
-				<div class="col-lg-4 col-md-4 col-sm-12">
-                    <a href="/ac-heat-pumps">
-                        <div class="hoverbox-7 w-100 box-shadow-radius-img-roof">
-                                <img class="w-100 lazyload" data-src="{{ asset('/images/Cards/AC.avif') }}" alt="">
-                                <div class="content mt-3rem flex-content-landing bg-transparent">
-                                    <div class="pb-2">
-                                        <img data-src="{{ asset('/images/Cards/Icons/AC.png') }}" alt="" class="lazyload">
-                                    </div>
-                                    <span class="box-text-landing-img">{{__("translations.AC & Heat Pumps 2")}}</span>
-                                </div>
-                        </div>
-                    </a>
-				</div>
-			</div><!-- end row -->
-		</div><!-- end container -->
-	</div>
-	{{-- End Landing Cards --}}
-
-    @include('components.sections.logos-landing', 
+    @include('components.sections.landing-2', 
     [
-        'logo_1' => 'images/Logos/logo-1.png', 
-        'logo_2' => 'images/Logos/logo-2.png',
-        'logo_3' => 'images/Logos/logo-3.png',
-        'logo_4' => 'images/Logos/logo-4.png',
-        'logo_5' => 'images/Logos/logo-5.png',
-        'logo_6' => 'images/Logos/logo-6.png',
+        'pretxt' => __("translations.Empowering Sustainability and Savings"),
+        'title' => __("translations.Solar Financing"),
+        'text1_sf' => __("translations.text1_sf"),
+        'text2_sf' => __("translations.text2_sf"),
     ])
 
-    @include('components.sections.hero-title-landing', [
-        "title_landing" => __("translations.title-landing"),
+    @include('components.sections.landing-3', 
+    [
+        'pretxt' => __("translations.Upgrading Your Home"),
+        'title' => __("translations.Home Improvement"),
+        'text1_hi' => __("translations.text1_hi"),
+        'text2_hi' => __("translations.text2_hi"),
     ])
 
-    {{-- Img Banner --}}
-    <div class="section-md h-50 bg-img-landing lazyload">
-        <div class="bg-img-gradient"></div>
-    </div>
-    {{-- End Img Banner --}}
-
-    <section class="container-main-section-index">
-        <div class="row justify-content-between justify-center-md">
-            <div class="col-lg-3 col-md-6 col-sm-12 div-flex-col">
-                <h4 class="title-main-section-1">{{ __("translations.banner-title-landing-1") }}</h4>
-                <h5 class="text-center font-weight-600 lh-small">{{ __("translations.banner-subt-landing-1") }}</h5>
-                <p class="desc-main-section-2">{{ __("translations.banner-text-landing-1") }}</p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 div-flex-col">
-                <h4 class="title-main-section-1">{{ __("translations.banner-title-landing-2") }}</h4>
-                <h5 class="text-center font-weight-600 lh-small">{{ __("translations.banner-subt-landing-2") }}</h5>
-                <p class="desc-main-section-2">{{ __("translations.banner-text-landing-2") }}</p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 div-flex-col">
-                <h4 class="title-main-section-1">{{ __("translations.banner-title-landing-3") }}</h4>
-                <h5 class="text-center font-weight-600 lh-small">{{ __("translations.banner-subt-landing-3") }}</h5>
-                <p class="desc-main-section-2">{{ __("translations.banner-text-landing-3") }}</p>
-            </div>
-        </div>
-    </section><!-- end container -->
-
-    {{-- @include('components.sections.banner-footer-1', 
+    @include('components.sections.landing-4', 
     [
-        'imagen' => 'images/Footer/banner-2/1-solar.avif', 
-        'titulo' => __("translations.banner-footer-title-solar"), 
-        'subtitulo' => __("translations.banner-footer-text-solar"), 
-        'btn_texto' => __("translations.banner-footer-button-solar"),
-        'form' => true,
-    ]) --}}
+        'pretxt' => __("translations.Energy Independence for a Better Future"),
+        'title' => __("translations.Reducing Impact"),
+        'icon1' => 'images/Icons/Roof.svg',
+        'text1' => __("translations.text1"),
+        'icon2' => 'images/Icons/Subtract.svg',
+        'text2' => __("translations.text2"),
+        'icon3' => 'images/Icons/Efficient.svg',
+        'text3' => __("translations.text3"),
+        'img' => 'images/Main/main-home-5.png',
+    ])
 
 @endsection
 

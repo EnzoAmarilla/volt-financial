@@ -11,10 +11,11 @@
 
     @include('components.sections.banner',
     [
-        'imagen' => 'images/Main/main-home.png', 
+        'img' => 'images/Main/main-home.png', 
+        'text_color' => null, 
 		// 'class_image_mobile' => 'bg-mobile-solar-energy',
-		'titulo' => __("translations.Banner Title"), 
-		'subtitulo' => __("translations.Banner Subtitle"),
+		'title' => __("translations.Banner Title"), 
+		'subtitle' => __("translations.Banner Subtitle"),
     ])
 
     @include('components.sections.landing-1', 
@@ -69,6 +70,12 @@
         'text3' => __("translations.text3"),
         'img' => 'images/Main/main-home-5.png',
     ])
+
+    {{-- // Title footer --}}
+    @php
+        $text_title_footer = __('translations.Title Footer Index');
+    @endphp
+    {{-- // END Title footer --}}
 
 @endsection
 

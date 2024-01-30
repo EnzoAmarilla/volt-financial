@@ -13,10 +13,10 @@
                     <a class="nav-link" href="#">@lang('translations.Menu')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="#">@lang('translations.About Us')</a>
+                    <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="#">@lang('translations.Contact')</a>
+                    <a class="nav-link nldt" href="/contact">@lang('translations.Contact')</a>
                 </li>
                 <div class="mobile-buy-now-my-voit">
                     <li class="nav-item">

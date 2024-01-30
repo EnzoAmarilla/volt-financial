@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-4 col-md-6 text-center text-md-left footer-padding">
-                    <h4 class="title-footer white-space">@lang('translations.Title Footer')</h4>
+                    <h4 class="title-footer white-space">{{ $text_title_footer }}</h4>
                     <div class="horizontal-bar"></div>
                     <h3 class="title-footer">@lang('translations.Reach'):</h3>
                     {{-- <p class="margin-top-20">@lang('translations.Phone'): (786) 744-7703</p> --}}

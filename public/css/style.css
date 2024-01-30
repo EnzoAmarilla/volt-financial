@@ -184,13 +184,22 @@ ul, li, a {
     letter-spacing: 0.7px;
 }
 
-.text-container-1 {
+.text-container-1, .text-container-about-1 {
     display: flex;
     padding: 0px 129px;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     flex: 1 0 0;
+}
+
+.text-container-about-1 {
+    color: var(--Black-1);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
 }
 
 .text-blue-2 {

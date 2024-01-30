@@ -69,7 +69,7 @@ return [
     "Contact us" => "Contact us",
 
     // Footer
-    "Title Footer" => "Unlocking Your Power",
+    // "Title Footer Index" => "Unlocking Your Power",
     "We are here to help" => "We are here to help",
     "Footer Subtitle" => "Our teams work hand in hand with you, making your path to energy independence as smooth as possible.",
     "I need your help" => "I need your help",
@@ -116,6 +116,47 @@ return [
     "Home Improvement" => "Home Improvement",
     "text1_hi" => "Home improvement financing through Volt Financial Services provides homeowners with the opportunity to upgrade their homes with essential and modern enhancements such as new roofing, HVAC systems, energy storage batteries, and EV chargers.",
     "text2_hi" => "By financing these improvements, homeowners can make significant upgrades without the burden of large upfront costs. This approach not only enhances their living experience but also contributes to long-term energy savings and an increase in their property's market value.",
+
+    // Footer
+    "Title Footer Index" => "Unlocking Your Power",
+
+// ________ END Index Landing ________
+
+
+
+// ________ About Us Landing ________
+
+    // Banner
+    "Banner Title About" => "Financing Your Energy Independence",
+    "Banner Subtitle About" => "Our mission is to enable homeowners to attain energy independence through tailored financial solutions.",
+
+    // Who we are
+    "Who we are" => "Who we are",
+    "Title1 About" => "Unlocking Energy Independence",
+    "Text About" => "Our journey began in 2015 in Panama, where Volt Solar Energy first planted its roots in the renewable energy sector. Rapid expansion followed, with new branches opening in Argentina (2016), Chile (2018), and Miami, Florida (2020), each location strengthening our mission and expertise in providing top-tier solar and energy storage solutions.
+
+    In 2023, we recognized a growing need: to empower our clients not only with solar energy technology but also with accessible, flexible financing solutions for their energy independence. Thus, Volt Financial Services was created, emerging as a natural progression of Volt Solar Energy's commitment to sustainability and customer empowerment.
+    
+    Our mission at Volt Financial Services is to provide innovative and customer-focused financial solutions for a range of home improvements. We specialize in financing solar systems, roofing, HVAC, batteries, EV chargers, and more, all designed to enhance the energy efficiency and value of your home.
+    
+    We bring the same spirit of growth, innovation, and sustainability from Volt Solar Energy into the financial realm. Our aim is to make energy independence not just an aspiration but an attainable reality for homeowners. By offering strategic financing options, we bridge the gap between your sustainable dreams and their realization.
+    
+    Our expertise is backed by our history of implementing both residential and industrial solar solutions across Central and South America, and more recently, in the United States. With Volt Financial Services, you get more than just a financier; you get a partner committed to supporting your journey towards a sustainable, energy-independent future. Our proprietary energy monitoring system, a testament to our innovative spirit, provides real-time insights into energy consumption and production, ensuring that every investment is as smart as it is sustainable.
+    
+    At Volt Financial Services, we're not just financing home improvements; we're investing in a cleaner, greener future. Join us in making energy independence a reality for all.",
+
+    // Footer
+    "Title Footer About" => "Financing your way to energy independence.",
+
+// ________ END About Us Landing ________
+
+
+
+
+
+
+
+// Chequear estos debajos
 
     // Hero Text 3 Landing
     "Hero Text Description 3" => "Make your home smart, efficient and renewable.",

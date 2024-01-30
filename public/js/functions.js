@@ -93,6 +93,9 @@ $(window).on("scroll", function () {
     }
   } else if (c > currentScrollTop && !(a <= 210)) {
     header.removeClass("hide");
+    header.addClass("bg-white");
+  } else if (currentScrollTop) {
+    header.removeClass("bg-white");
   }
 
   c = currentScrollTop;

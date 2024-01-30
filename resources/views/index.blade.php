@@ -13,10 +13,19 @@
     [
         'img' => 'images/Main/main-home.png', 
         'text_color' => null, 
-		// 'class_image_mobile' => 'bg-mobile-solar-energy',
 		'title' => __("translations.Banner Title"), 
 		'subtitle' => __("translations.Banner Subtitle"),
     ])
+
+    {{-- Mobile Component --}}
+    @include('components.sections.mobile.banner-mobile',
+    [
+        'img' => 'images/Main/main-home.png', 
+        'text_color' => null, 
+        'title' => __("translations.Banner Title"), 
+        'subtitle' => __("translations.Banner Subtitle"),
+    ])
+    {{-- End Mobile Component --}}
 
     @include('components.sections.landing-1', 
     [
@@ -70,6 +79,13 @@
         'text3' => __("translations.text3"),
         'img' => 'images/Main/main-home-5.png',
     ])
+
+    {{-- Mobile Component --}}
+    @include('components.sections.mobile.footer-img-sm', 
+    [
+        'img' => 'images/Footer/image-footer.png',
+    ])
+    {{-- End Mobile Component --}}
 
     {{-- // Title footer --}}
     @php

@@ -1,4 +1,4 @@
-<div class="header sticky">
+<div class="header sticky-autohide">
     <div class="container-fluid header-padding">
         <!-- Logo -->
         <div class="header-logo">
@@ -9,27 +9,34 @@
         <!-- Menu -->
         <div class="header-menu">
             <ul class="nav">
-                <li class="nav-item menu-header-mobile">
-                    <a class="nav-link" href="#">@lang('translations.Menu')</a>
-                </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>
                 </li>
-                <div class="mobile-buy-now-my-voit">
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://my.voltsolarenergy.com">My Volt</a>
-                    </li>
-                </div>
+                <li class="nav-item nav-item-header login-item d-none-lg">
+                    <a class="mt-6" target="_blank" href="https://my.voltsolarenergy.com">
+                        <img data-src="{{ asset('/images/Icons/icon.svg') }}" alt="" class="mr-6 lazyload">
+                    Login
+                    </a>
+                </li>
+                <li class="nav-item nav-item-header d-none-lg">
+                    <a class="nav-link button-circle button-circle-white-3" href="/locale/{{ App::currentLocale() == 'en' ? 'es' : 'en' }}">
+                        <form action="/locale/{{ App::currentLocale() == 'en' ? 'es' : 'en' }}" method="GET">
+                            <button type="submit" class="text-center text-white">
+                                {{ App::currentLocale() == "en" ? "ES" : "EN" }}
+                            </button>
+                        </form>
+                    </a>
+                </li>
             </ul>
         </div>
 
         <!-- Menu Extra -->
-        <div class="header-menu-extra">
+        <div class="header-menu-extra d-none-sm">
             <ul class="list-inline d-flex justify-content-center align-items-center">
-                <li class="nav-item desktop-buy-now-my-voit mr-20 mt-6">
+                <li class="nav-item login-item desktop-buy-now-my-voit mr-20 mt-6">
                     <a class="mt-6" target="_blank" href="https://my.voltsolarenergy.com">
                         <img data-src="{{ asset('/images/Icons/icon.svg') }}" alt="" class="mr-6 lazyload">
                     Login
@@ -47,8 +54,8 @@
             </ul>
         </div>
         <!-- Menu Toggle -->
-        <button class="header-toggle">
-            <span></span>
+        <button class="header-toggle d-none-lg">
+            <span style="height: 3px"></span>
         </button>
     </div><!-- end container -->
 </div>

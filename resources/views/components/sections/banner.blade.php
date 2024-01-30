@@ -1,5 +1,5 @@
 <!-- Hero section -->
-<div class="section-fullscreen bg-image vw-100" data-bg-src="{{ asset($img) }}">
+<div class="section-fullscreen bg-image vw-100 d-none-sm" data-bg-src="{{ asset($img) }}">
     <div class="banner-flex">
         <div class="left-bar"></div>
         <div class="flex-column">

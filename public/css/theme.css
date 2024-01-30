@@ -7468,65 +7468,78 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
   color: #131517;
 }
 
-.header .header-toggle {
-  position: relative;
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin-left: auto;
-  cursor: pointer;
-}
+@media (max-width: 767.99px) {
 
-.header .header-toggle span {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  background: #ffffff;
-  width: 100%;
-  height: 2px;
-  border-radius: 2px;
-  -webkit-transition: linear 0.1s;
-  transition: linear 0.1s;
-}
+  .header {
+    background: transparent !important;
+  }
 
-.header .header-toggle span:before, .header .header-toggle span:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  background: #ffffff;
-  width: 100%;
-  height: 2px;
-  border-radius: 2px;
-  -webkit-transition: linear 0.1s;
-  transition: linear 0.1s;
-}
+  .header.sticky-autohide, .header.sticky {
+    -webkit-box-shadow: 0 0 0px 0 rgba(22, 25, 28, 0.17) !important;
+    box-shadow: 0 0 0px 0 rgba(22, 25, 28, 0.17) !important;
+  }
 
-.header .header-toggle span:before {
-  top: -7px;
-}
+  .header .header-toggle {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .header .header-toggle span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #708AC3;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    -webkit-transition: linear 0.1s;
+    transition: linear 0.1s;
+  }
+  
+  .header .header-toggle span:before, .header .header-toggle span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #708AC3;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    -webkit-transition: linear 0.1s;
+    transition: linear 0.1s;
+  }
+  
+  .header .header-toggle span:before {
+    top: -7px;
+  }
+  
+  .header .header-toggle span:after {
+    bottom: -7px;
+  }
+  
+  .header .header-toggle.toggle-close span {
+    background: transparent;
+  }
+  
+  .header .header-toggle.toggle-close span:before {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .header .header-toggle.toggle-close span:after {
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
-.header .header-toggle span:after {
-  bottom: -7px;
-}
-
-.header .header-toggle.toggle-close span {
-  background: transparent;
-}
-
-.header .header-toggle.toggle-close span:before {
-  top: 0;
-  bottom: 0;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.header .header-toggle.toggle-close span:after {
-  top: 0;
-  bottom: 0;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .header .header-menu {
@@ -7542,6 +7555,12 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 767.98px) and (max-width: 991.24px) {
+  .header .header-menu .nav {
+    display: inline-flex !important;
+  }
 }
 
 .header .header-menu .nav ul {
@@ -7979,7 +7998,7 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.99px) {
   .header {
     height: 70px;
   }
@@ -7991,7 +8010,6 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
     border-radius: 4px 0px 0px 4px;
     background: rgba(35, 31, 32, 0.87);
     box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(3px);
     width: 215px;
     height: 85vh;
     -webkit-box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -8166,9 +8184,9 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
   height: 100px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 767.98px) {
   .header-placeholder, .header-placeholder-lg, .header-placeholder-xl {
-    height: 70px;
+    height: 0px;
   }
 }
 

@@ -53,6 +53,20 @@ ul, li, a {
     align-items: center;
 }
 
+.banner-flex-sm {
+    display: flex;
+    height: 125%;
+    width: 85% !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px !important;
+}
+
+.login-item:hover {
+    font-weight: 600 !important;
+    transition-delay: 50ms; 
+}
+
 .banner-title {
     color: var(--Black-1);
     /* Titulo */
@@ -61,6 +75,17 @@ ul, li, a {
     font-style: normal;
     font-weight: 700;
     line-height: 36px; /* 112.5% */
+    letter-spacing: 3.84px;
+}
+
+.banner-title-sm {
+    color: var(--Black-1);
+    /* Titulo */
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 112.5% */
     letter-spacing: 3.84px;
 }
 
@@ -74,6 +99,19 @@ ul, li, a {
     line-height: normal;
     letter-spacing: 2px;
 }
+
+.banner-subtitle-sm {
+    color: var(--Black-3);
+    /* Sub Sub Titulo */
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+
 
 .blue-dot {
     color: var(--Blue-1);
@@ -320,7 +358,6 @@ ul, li, a {
     color: #708AC3 !important;
 }
 
-
 .text-black-2 {
     color: var(--Black-2) !important;
 }
@@ -340,6 +377,18 @@ ul, li, a {
     margin-right: 8px;
 }
 
+@media (min-width: 768px) {
+    .header-padding {
+        padding: 0px !important;
+        justify-content: space-between;
+    }
+
+    .header-logo {
+        width: 25% !important;
+        padding-left: 25px !important;
+    }
+}
+
 .text-privacy {
     color: #FFF;
 
@@ -351,7 +400,7 @@ ul, li, a {
     letter-spacing: 0.7px;
 }
 
-.text-privacy li{
+.text-privacy li {
     color: #FFF
 }
 
@@ -502,8 +551,10 @@ ul, li, a {
     color: #FFFF !important;
 }
 
-.header-padding {
-    padding: 33px 128px;
+@media (min-width: 991.25px) {
+    .header-padding {
+        padding: 33px 128px !important;
+    }
 }
 
 .ml-20 {
@@ -1647,23 +1698,6 @@ to {
 
 /* MEDIA QUERIES DESDE MOBILE S HASTA TABLET */
 
-/* NO TOCAR - DISPLAY NONE DE BOTÓN DE 'BUY NOW' EN TABLET */
-
-@media (min-width: 510px) {
-    .mobile-buy-now-my-voit {
-        display: none;
-    }
-}
-
-/* NO TOCAR - DISPLAY NONE DE BOTÓN DE 'BUY NOW' EN MOBILE */
-
-@media (max-width: 510px)
-{
-    .desktop-buy-now-my-voit{
-        display: none !important;
-    }
-}
-
 /* NO TOCAR PADDING DE FOOTER */
 
 @media (min-width: 320px) and (max-width: 359.99px) {
@@ -2230,6 +2264,54 @@ to {
     .bg-mobile-solar-bat {
         background-image: url('../images/Mobile/1-solar-bat.avif') !important;
     }
+
+    .text-container-1 {
+        padding: 40px 45px !important;
+    }
+
+    .solar-financing-container {
+        align-items: center;
+    }
+
+    .solar-financing-child {
+        width: 90%;
+        padding: 0px 25px;
+    }
+
+    .home-improvement-container {
+        align-items: center;
+    }
+
+    .home-improvement-child {
+        width: 90%;
+        padding: 0px 25px;
+    }
+
+    .reducing-impact-padding {
+        padding: 60px 65px;
+    }
+
+    .reducing-impact-title {
+        width: 79%;
+    }
+
+    .footer-padding {
+        padding: 0px 25px !important;
+        text-align: left !important;
+    }
+
+    .title-footer {
+        font-size: 24px;
+    }
+
+    .icon-size-sm {
+        font-size: 20px;
+    }
+
+    .header-logo {
+        width: 45%;
+    }
+
 }
 
 @media (min-width: 430px) and (max-width: 991.98px) {
@@ -2617,9 +2699,16 @@ to {
     .w-35 {
         width: 100% !important;
     }
-}
-@media (min-width: 992px) {
-    .d-none-lg {
-        display: none;
+    .bg-image {
+        background-position: inherit !important;
     }
+    .section-fullscreen {
+        height: 70vh !important;
+    }
+}
+@media (min-width: 767.98px) {
+    .d-none-lg {
+        display: none !important;
+    }
+
 }

@@ -2,36 +2,51 @@
     <div class="row align-items-center">
         <div class="col-lg-7">
             <div class="text-container-1">
-                <p class="font-weight-medium">{{ $pretxt }}</p>
-                <h3>{{ $title }}</h3>
+                <p class="pretxt mb-2">{{ $pretxt }}</p>
+                <h3 class="title">{{ $title }}</h3>
                 <div class="horizontal-bar-2"></div>
-                <h6>{{ $subtitle }}</h6>
-                <span>{{ $title_sm }}</span>
-                <p>
+                <h6 class="text-landing-500 mb-3">{{ $subtitle }}</h6>
+                <span class="subtitle-sm mb-3">{{ $title_sm }}</span>
+
+                <div class="d-flex align-items-start">
                     <img src={{ $bullet }} class="bullet" alt="">
-                    <strong>{{ $boldtxt1 }}</strong>
-                    {{ $text1 }}
-                </p>
-                <p>
+                    <p class="text-landing mb-4">
+                        <strong class="strong">{{ $boldtxt1 }}</strong>
+                        {{ $text1 }}
+                    </p>
+                </div>
+
+                <div class="d-flex align-items-start">
                     <img src={{ $bullet }} class="bullet" alt="">
-                    <strong>{{ $boldtxt2 }}</strong>
-                    {{ $text2 }}
-                </p>
-                <p>
+                    <p class="text-landing mb-4">
+                        <strong class="strong">{{ $boldtxt2 }}</strong>
+                        {{ $text2 }}
+                    </p>
+                </div>
+
+                <div class="d-flex align-items-start">
                     <img src={{ $bullet }} class="bullet" alt="">
-                    <strong>{{ $boldtxt3 }}</strong>
-                    {{ $text3 }}
-                </p>
-                <p>
+                    <p class="text-landing mb-4">
+                        <strong class="strong">{{ $boldtxt3 }}</strong>
+                        {{ $text3 }}
+                    </p>
+                </div>
+
+                <div class="d-flex align-items-start">
                     <img src={{ $bullet }} class="bullet" alt="">
-                    <strong>{{ $boldtxt4 }}</strong>
-                    {{ $text4 }}
-                </p>
-                <p>
+                    <p class="text-landing mb-4">
+                        <strong class="strong">{{ $boldtxt4 }}</strong>
+                        {{ $text4 }}
+                    </p>
+                </div>
+
+                <div class="d-flex align-items-start">
                     <img src={{ $bullet }} class="bullet" alt="">
-                    <strong>{{ $boldtxt5 }}</strong>
-                    {{ $text5 }}
-                </p>
+                    <p class="text-landing">
+                        <strong class="strong">{{ $boldtxt5 }}</strong>
+                        {{ $text5 }}
+                    </p>
+                </div>
             </div>
         </div>
         <div class="col-lg-5 p-0">

@@ -26,12 +26,11 @@
         'img' => 'images/About/main-about-2.png',
     ])
 
-    @include('components.sections.landing-3', 
+    @include('components.sections.about-2', 
     [
-        'pretxt' => __("translations.Upgrading Your Home"),
+        'pretxt' => __("translations.Modern Home Upgrades"),
         'title' => __("translations.Home Improvement"),
-        'text1_hi' => __("translations.text1_hi"),
-        'text2_hi' => __("translations.text2_hi"),
+        'text_ab' => __("translations.text-ab"),
     ])
 
     {{-- // Title footer --}}

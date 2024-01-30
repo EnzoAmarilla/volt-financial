@@ -105,4 +105,21 @@ return [
 
 // ________ END About Us Landing ________
 
+// ________ Contact form ________
+
+        // Title
+        "Contact Volt Financial" => "Contact Volt Financial",
+        "Subtitle Form Contact" => "Financing your way to energy independence",
+        "Submit Contact Form" => "Submit",
+        "Your information" => "Your information",
+        "First Name" => "First Name*",
+        "Last Name" => "Last Name*",
+        "Email Address" => "Email Address*",
+        "Phone Number" => "Phone Number*",
+        "warning-text" => "By entering your email address and submitting your resume, you agree to our",
+        "Privacy Policy" => "Privacy Policy",
+        "statement-consent" => "statement and consent to be contacted.",
+        "I agree" => "I agree",
+
+// ________ END Contact form ________
 ];

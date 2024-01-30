@@ -16,7 +16,7 @@
                     <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>
                 </li>
                 <li class="nav-item nav-item-header">
-                    <a class="nav-link nldt" href="/contact">@lang('translations.Contact')</a>
+                    <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>
                 </li>
                 <div class="mobile-buy-now-my-voit">
                     <li class="nav-item">

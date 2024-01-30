@@ -30,7 +30,7 @@ return [
     "Address" => "Dirección",
     "All Rights reserved Volt © :year" => "Todos los derechos reservados Volt Financial Services © :year",
 
-    // ________ Índice de la Página de Aterrizaje ________
+// ________ Índice de la Página de Aterrizaje ________
 
     // Nuestros Servicios Texto
     "Our Services" => "Nuestros Servicios",
@@ -70,11 +70,11 @@ return [
     // Pie de página
     "Title Footer Index" => "Desbloqueando tu Poder",
 
-    // ________ FIN Índice de la Página de Aterrizaje ________
+// ________ FIN Índice de la Página de Aterrizaje ________
 
 
 
-    // ________ Sobre Nosotros Página de Aterrizaje ________
+// ________ Sobre Nosotros Página de Aterrizaje ________
 
     // Banner
     "Banner Title About" => "Financiando tu Independencia Energética",
@@ -103,6 +103,23 @@ return [
     // Pie de página
     "Title Footer About" => "Financia tu camino hacia la independencia energética.",
 
-    // ________ FIN Sobre Nosotros Página de Aterrizaje ________
+// ________ FIN Sobre Nosotros Página de Aterrizaje ________
 
+    
+// ________ Contact form ________
+
+    "Contact Volt Financial" => "Contactar a Volt Financial",
+    "Subtitle Form Contact" => "Financiando tu camino hacia la independencia energética",
+    "Submit Contact Form" => "Enviar",
+    "Your information" => "Tu información",
+    "First Name" => "Nombre*",
+    "Last Name" => "Apellido*",
+    "Email Address" => "Correo Electrónico*",
+    "Phone Number" => "Número de Teléfono*",
+    "warning-text" => "Al ingresar tu dirección de correo electrónico y enviar tu currículum, aceptas nuestro",
+    "Privacy Policy" => "Política de Privacidad",
+    "statement-consent" => "declaración y consentimiento para ser contactado.",
+    "I agree" => "Estoy de acuerdo",
+
+// ________ END Contact form ________
 ];

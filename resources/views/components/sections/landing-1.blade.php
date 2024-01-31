@@ -1,6 +1,6 @@
 <div class="container-fluid p-0">
-    <div class="row align-items-center justify-content-between">
-        <div class="col-lg-7">
+    <div class="d-flex flex-column-xs align-items-center justify-content-between">
+        <div class="col-lg-7 p-0">
             <div class="text-container-1">
                 <p class="pretxt mb-2">{{ $pretxt }}</p>
                 <h3 class="title">{{ $title }}</h3>

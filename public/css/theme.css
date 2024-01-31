@@ -8008,12 +8008,10 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
     left: -100%;
     overflow-y: auto;
     border-radius: 4px 0px 0px 4px;
-    background: rgba(35, 31, 32, 0.87);
-    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 215px;
-    height: 85vh;
-    -webkit-box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 20px 30px;
+    background: #FFF;
+    width: 75%;
+    height: 40%;
+    padding: 20px 20px;
     -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     transform: translateY(100%);
@@ -8047,7 +8045,16 @@ div[class^='bg-black'].fullscreen-menu .fm-wrapper .fm-close span:before, div[cl
     display: inline-block;
     width: auto;
     height: auto;
-    color: #d3d2d2;
+    color: #A7A5A6;
+  }
+
+  .link-login{
+    font-weight: 600;
+    color: #A7A5A6;
+  }
+
+  .button-circle-white-3{
+    padding: 6px 8px !important;
   }
 
   .header .header-menu .nav .nav-item .nav-link:hover,

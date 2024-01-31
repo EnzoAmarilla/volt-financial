@@ -1395,6 +1395,7 @@ ul, li, a {
 .menu-header-mobile {
     text-align: center !important;
     font-size: 1.2rem;
+    padding: 0px 0px 12px 0px !important;
     border-bottom: 1px solid #7B7979;
 }
 
@@ -2549,6 +2550,10 @@ to {
     .container-main-section-index div .col-lg-5 {
         order: 2;
     }
+
+    .flex-column-xs {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2710,5 +2715,4 @@ to {
     .d-none-lg {
         display: none !important;
     }
-
 }

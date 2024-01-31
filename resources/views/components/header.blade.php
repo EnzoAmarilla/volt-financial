@@ -9,6 +9,9 @@
         <!-- Menu -->
         <div class="header-menu">
             <ul class="nav">
+                <li class="nav-item menu-header-mobile mb-2">
+                    <a class="nav-link" href="#">@lang('translations.Menu')</a>
+                </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>
                 </li>
@@ -16,7 +19,7 @@
                     <a class="nav-link nldt" href="#" onclick="modal_doble_active()" data-toggle="modal" data-target="#modal-form-contact">@lang('translations.Contact')</a>
                 </li>
                 <li class="nav-item nav-item-header login-item d-none-lg">
-                    <a class="mt-6" target="_blank" href="https://my.voltsolarenergy.com">
+                    <a class="mt-6 link-login" target="_blank" href="https://my.voltsolarenergy.com">
                         <img data-src="{{ asset('/images/Icons/icon.svg') }}" alt="" class="mr-6 lazyload">
                     Login
                     </a>

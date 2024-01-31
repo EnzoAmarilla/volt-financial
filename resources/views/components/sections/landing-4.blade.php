@@ -7,19 +7,19 @@
 
             <div class="d-flex align-items-center">
                 <img class="mr-icon-1" src="{{ asset('images/Icons/Roof.svg') }}" alt="">
-                <p class="mb-3">
+                <p class="">
                     <strong>{{ $text1 }}</strong>
                 </p>
             </div>
 
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center mt-3">
                 <img class="mr-icon-2" src="{{ asset('images/Icons/Subtract.svg') }}" alt="">
-                <p class="mb-3">
+                <p class="">
                     <strong>{{ $text2 }}</strong>
                 </p>
             </div>
 
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center mt-3">
                 <img class="mr-icon-3" src="{{ asset('images/Icons/Efficient.svg') }}" alt="">
                 <p class="">
                     <strong>{{ $text3 }}</strong>

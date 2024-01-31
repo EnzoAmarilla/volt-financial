@@ -9,8 +9,8 @@
         <!-- Menu -->
         <div class="header-menu">
             <ul class="nav">
-                <li class="nav-item menu-header-mobile mb-2">
-                    <a class="nav-link" href="#">@lang('translations.Menu')</a>
+                <li class="nav-item menu-header-mobile d-none-lg mb-2">
+                    <a class="nav-link">@lang('translations.Menu')</a>
                 </li>
                 <li class="nav-item nav-item-header">
                     <a class="nav-link nldt" href="/about-us">@lang('translations.About Us')</a>

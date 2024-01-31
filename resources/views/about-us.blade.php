@@ -18,6 +18,16 @@
 		'subtitle' => __("translations.Banner Subtitle About"),
     ])
 
+    {{-- Mobile Component --}}
+    @include('components.sections.mobile.banner-mobile',
+    [
+        'img' => 'images/About/main-about.png', 
+        'text_color' => 'text-white', 
+        'title' => __("translations.Banner Title About"), 
+        'subtitle' => __("translations.Banner Subtitle About"),
+    ])
+    {{-- End Mobile Component --}}
+
     @include('components.sections.about-1', 
     [
         'pretxt' => __("translations.Who we are"),
@@ -26,12 +36,29 @@
         'img' => 'images/About/main-about-2.png',
     ])
 
+    {{-- Tablet Component --}}
+    {{-- @include('components.sections.tablet.about-1-md', 
+    [
+        'pretxt' => __("translations.Who we are"),
+        'title' => __("translations.Title1 About"), 
+        'text' => __("translations.Text About"),
+        'img' => 'images/About/Tablet/main-about-3.jpg',
+    ]) --}}
+    {{-- End Tablet Component --}}
+
     @include('components.sections.about-2', 
     [
         'pretxt' => __("translations.Modern Home Upgrades"),
         'title' => __("translations.Home Improvement"),
         'text_ab' => __("translations.text-ab"),
     ])
+
+    {{-- Mobile Component --}}
+    @include('components.sections.mobile.footer-img-sm', 
+    [
+        'img' => 'images/Footer/image-footer.png',
+    ])
+    {{-- End Mobile Component --}}
 
     {{-- // Title footer --}}
     @php

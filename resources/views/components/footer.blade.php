@@ -2,7 +2,7 @@
     <div class="section-lg bg-light-footer vw-100">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
-                <div class="col-lg-4 col-md-6 text-center text-md-left footer-padding">
+                <div class="col-lg-4 col-md-12 text-center text-md-left footer-padding">
                     <h4 class="title-footer white-space">{{ $text_title_footer }}</h4>
                     <div class="horizontal-bar"></div>
                     <h3 class="title-footer">@lang('translations.Reach'):</h3>
@@ -18,7 +18,7 @@
                         <li><a href="https://twitter.com/VoltSolarEnergy" target="_blank"><i class="fa-brands fa-x-twitter text-blue-2"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-lg-7 col-md-6 vw-100 text-center text-md-right d-none-sm">
+                <div class="col-lg-7 col-md-12 vw-100 text-center text-md-right d-none-sm d-none-md">
                     <img data-src="{{ asset('images/Footer/image-footer.png') }}" alt="" class="lazyload">
                 </div>
             </div><!-- end row -->

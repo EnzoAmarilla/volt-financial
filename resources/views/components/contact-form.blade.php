@@ -18,7 +18,7 @@
                 <h6 class="text-title-tv text-center">{{__("translations.Subtitle Form Contact")}}<span class="blue-dot">.</span></h6>
                 {{-- <p class="title-hero-grey mt-4">{{__("translations.Your Information")}}</p> --}}
 		        <div class="row justify-content-around mt-5">
-                    <div class="col-5">
+                    <div class="col-lg-5 col-sm-12">
                         <form class="form-contact" action="/contact-form" method="POST" class="w-100">
                             @csrf
                             <p class="your-information mb-3">{{ __("translations.Your information") }}</p>
@@ -44,7 +44,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-5 reach-us-at-cf">
+                    <div class="col-lg-5 col-sm-12 reach-us-at-cf">
                         <h3 class="title-footer">@lang('translations.Reach'):</h3>
                         {{-- <p class="margin-top-20">@lang('translations.Phone'): (786) 744-7703</p> --}}
                         <p class="footer-contact-info margin-top-20">@lang('translations.Phone'): (786) 744-7703</p>
@@ -59,7 +59,6 @@
                         </ul>
                     </div>
                 </div>
-               
             </div>
         </div>
     </div>

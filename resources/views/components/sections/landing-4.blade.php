@@ -1,6 +1,6 @@
 <div class="container-fluid p-0">
     <div class="d-flex flex-column-xs align-items-center justify-content-end">
-        <div class="col-lg-5 col-md-6 reducing-impact-padding flex-direction-column align-items-start">
+        <div class="col-lg-5 col-md-6 pl-40 reducing-impact-padding flex-direction-column align-items-start">
             <p class="banner-subtitle mb-2">{{ $pretxt }}</p>
             <h4 class="title-footer reducing-impact-title white-space">{{ $title }}</h4>
             <div class="horizontal-bar-3"></div>

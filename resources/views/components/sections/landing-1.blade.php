@@ -49,8 +49,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 p-0">
-            <img class="mr-0" src={{ $img }} alt="">
+        <div class="col-lg-5 h-1615 p-0">
+            <img class="img-fluid h-100 object-fit-cover mr-0" src={{ $img }} alt="">
         </div>
     </div>
 </div>

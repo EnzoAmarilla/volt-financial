@@ -17,8 +17,6 @@
 
         @include('components.footer')
 
-        @include('components.buy-now-form')
-
         @include('components.contact-form')
 
         @include('components.form-result')

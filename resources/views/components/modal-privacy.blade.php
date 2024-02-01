@@ -5,7 +5,7 @@
                 <div class="container pt-3 pb-1">
                     <div class="row p-2">
                         <div class="col-2 d-flex justify-content-start m-0">
-                            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <button type="button" class="close text-black" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         </div>
                         {{-- <div class="col-9 title-form-contact m-0">
                             <p class="title-hero-grey">TITULOOO</p>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="div-bg-form-contact">
-                <p class="text-white title-privacy">{{ __("translations.Privacy Policy") }}</p>
+                <p class="text-black title-privacy">{{ __("translations.Privacy Policy") }}</p>
                 <br>
                 <br>
                 <br>

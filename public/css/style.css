@@ -386,7 +386,7 @@ ul, li, a {
 }
 
 .text-privacy {
-    color: #FFF;
+    color: var(--Black-2);
 
     /* Texto semibold */
     font-size: 14px;
@@ -397,7 +397,7 @@ ul, li, a {
 }
 
 .text-privacy li {
-    color: #FFF
+    color: var(--Black-2);
 }
 
 .pbrem {
@@ -405,7 +405,7 @@ ul, li, a {
 }
 
 .h-privacy{
-    color: #FFF;
+    color: var(--Black-2);
 
     /* Sub sub titulo */
     font-size: 20px;
